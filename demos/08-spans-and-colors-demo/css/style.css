@@ -1,1 +1,14 @@
-\
+h1 {
+    color: rgb(240, 238, 255);
+    background-color: rgb(236, 85, 180);
+}
+#p1 {
+    color:rgb(115, 32, 215);
+    background-color:rgb(103, 240, 187);
+}
+span {
+    font-weight: 700;
+}
+#s1 {
+    color: rgb(13, 21, 173) 
+}
