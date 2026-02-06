@@ -1,0 +1,35 @@
+#container {
+    width: 500px;
+    min-height: 100vh;
+    background-color: rgb(23, 5, 49);
+    font-size: 0px;
+}
+
+.block {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 10px outset aqua
+}
+
+.fuchsia {
+    background-color: fuchsia;
+}
+
+.palegreen {
+    background-color: palegreen;
+}
+
+.blue {
+    background-color: rgb(15, 199, 255);
+}
+
+.mango {
+    background-color: rgb(255, 179, 15);
+}
+
+.fuchsia {
+    background-color: fuchsia;
+}
+
