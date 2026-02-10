@@ -1,0 +1,35 @@
+/*
+    Shorthand margin/padding can have up to 4 values.
+ 
+    1 Value Margin/Padding: targets all 4 sides of an element.
+ 
+    2 Vaue Margin/Padding: The first value targets the top AND bottom.
+    The second value targets the left AND right.
+ 
+    3 Value Margin/Padding: The first value targets the top. The
+    second value targets the left AND right. The third value targets
+    the bottom.
+ 
+    4 Value Margin/Padding: The first value targets the top. The
+    second value targets the right. The third value targets the
+    bottom. The fourth value targets the left.
+*/
+div {
+    border: 10px dashed palevioletred;
+    margin: 24px 50px 100px 0px;
+    padding: 24px 48px;
+    background-color: rgb(153, 226, 242);
+}
+/*
+    When the width and height properties are the same absolute
+    unit (px, pc, pt, in, mm); adding a border-radius of 50% will
+    create a complete circle.
+*/
+p {
+    border: 2px solid navy;
+    border-radius: 24px 50px 100px 0px;
+    background-color: rgb(209, 196, 255);
+    margin: 60px;
+    padding: 48px 60px;
+}
+.circle
