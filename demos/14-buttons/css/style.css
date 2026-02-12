@@ -1,0 +1,32 @@
+div {
+    background-color: pink;
+    padding: 25px;
+    margin-bottom:50px;
+}
+div p {
+    margin-bottom: 0px;
+}
+.btn {
+    text-decoration: none;
+    background-color: lavender;
+    padding: 10px 30px;
+    display: inline-block;
+    color: navy;
+    border: 2px solid navy;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px navy;
+    transition: background-color 0.5s, color 0.5s;
+}
+.btn:hover {
+    background-color: transparent;
+    color: rgb(70, 2, 115);
+}
+.btn.alt {
+    background-color: transparent;
+    border-color: rgb(28, 192, 238);
+    color: rgb(28, 192, 238);
+}
+.btn.alt:hover {
+    background-color: rgb(28, 192, 238);
+    color: white;
+}
