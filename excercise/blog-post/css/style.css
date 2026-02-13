@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    width: 80%;
+    max-width: 900px;
+    margin: 0px auto;
+}
+.images {
+    width:75%;
+    max-width: 50px;
+}
+.light-container {
+    background-color: #ecb1b1;
+    padding: 48px 0px;
+}
+.dark-container {
+    background-color: #78d23e;
+    color: white;
+    padding: 48px 0px;
+}
