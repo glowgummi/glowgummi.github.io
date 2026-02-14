@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    width: 80%;
+    max-width: 900px;
+    margin: 0px auto;
+}
+.light-container {
+    background-color: rgb(173, 219, 173);
+    color: rgb(14, 67, 67);
+    padding: 48px 0px;
+}
+.btn {
+    text-decoration: none;
+    background-color: rgb(232, 144, 249);
+    padding: 10px 30px;
+    display: block;
+    width: max-content;
+    margin: 0px auto;
+    color: navy;
+    border: 2px solid navy;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px navy;
+    transition: background-color 0.5s, color 0.5s;
+}
+.btn:hover {
+    background-color: transparent;
+    color: rgb(70, 2, 115);
+}
+.btn.alt {
+    background-color: transparent;
+    border-color: rgb(28, 192, 238);
+    color: rgb(28, 192, 238);
+}
+.btn.alt:hover {
+    background-color: rgb(28, 192, 238);
+    color: white;
+}
+.dark-container {
+    background-color: rgb(170, 162, 252);
+    color: rgb(40, 9, 132);
+    padding: 48px 0px;
+}
+.tea-cake {
+    background-color: rgb(245, 245, 165);
+    color: rgb(120, 69, 6);
+    padding: 48px 0px;
+}
+.peaches {
+    background-color: peachpuff;
+    color: rgb(226, 61, 1);
+    padding: 48px 0px;
+}
