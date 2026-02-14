@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: "Delius", cursive;
 }
-
+h1,
+h2 {
+    font-family: "Emilys Candy", serif;
+}
 .single-column {
     width: 80%;
     max-width: 900px;
