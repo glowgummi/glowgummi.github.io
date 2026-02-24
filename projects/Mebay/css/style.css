@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+} 
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100px;
+    object-fit: cover;
+}
+header {
+    background-color: navy;
+}
+header nav {
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav .logo img {
+    width: 200px;
+}
+#layout {
+    display: flex;
+}
