@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    width: 50%;
+    max-width: 300px;
+    margin: 0px auto;
+}
+.c1 {
+    padding: 20px 0px;
+}
+.c2 {
+    padding: 20px 0px;
+}
+img {
+    width: 300px;
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+}
+.btn {
+    text-decoration: none;
+    background-color: lavender;
+    padding: 10px 30px;
+    display: inline-block;
+    color: navy;
+    border: 2px solid navy;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px navy;
+    transition: background-color 0.5s, color 0.5s;
+}
