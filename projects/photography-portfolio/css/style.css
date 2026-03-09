@@ -47,7 +47,7 @@ img {
 .vm-gal {
     columns: 3 auto;
     column-gap: 10px;
-    border: 8px solid #d1bcff;
+    border: 4px solid #d1bcff;
 }
 
 h3 {
